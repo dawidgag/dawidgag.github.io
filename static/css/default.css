@@ -1,0 +1,43 @@
+body {
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-size: cover;
+}
+
+header {
+    background-color: gray;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header li a {
+    float: left;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+header a:hover {
+    padding: 3px 18px;
+    border: 2px double white;
+    color: black;
+}
